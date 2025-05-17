@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: plum;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+  background-color: palevioletred;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.choices button {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color:purple;
+  color: palevioletred;
+  transition: background-color 0.3s ease;
+}
+
+.choices button:hover {
+  background-color: plum;
+}
+
+.result {
+  margin-top: 20px;
+}
